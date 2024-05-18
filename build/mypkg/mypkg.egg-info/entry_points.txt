@@ -1,0 +1,3 @@
+[console_scripts]
+frist_publisher = mypkg.frist_node:main
+
