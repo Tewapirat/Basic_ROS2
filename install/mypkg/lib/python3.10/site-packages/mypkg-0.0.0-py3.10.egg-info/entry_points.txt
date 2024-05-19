@@ -1,4 +1,5 @@
 [console_scripts]
+frist_param = mypkg.frist_param:main
 frist_publisher = mypkg.frist_node:main
 frist_subscription = mypkg.frist_sub:main
 turtle_avoidance = mypkg.turtle_control:main

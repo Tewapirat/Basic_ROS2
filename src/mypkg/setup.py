@@ -1,5 +1,7 @@
 from setuptools import find_packages, setup
 
+import os
+from glob import glob
 package_name = 'mypkg'
 
 setup(
@@ -9,7 +11,7 @@ setup(
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
-        ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name, ['package.xml']),(os.path.join('share',package_name),glob("launch/*.launch.py")),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -25,6 +27,7 @@ setup(
             "frist_subscription = mypkg.frist_sub:main",
             "twist_subscription = mypkg.twist_sub:main",
             "turtle_avoidance= mypkg.turtle_control:main",
+            "frist_param= mypkg.frist_param:main",
 
 
         ],

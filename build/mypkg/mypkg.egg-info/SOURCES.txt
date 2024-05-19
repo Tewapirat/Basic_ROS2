@@ -8,8 +8,10 @@ setup.py
 ../../build/mypkg/mypkg.egg-info/requires.txt
 ../../build/mypkg/mypkg.egg-info/top_level.txt
 ../../build/mypkg/mypkg.egg-info/zip-safe
+launch/simple.launch.py
 mypkg/__init__.py
 mypkg/frist_node.py
+mypkg/frist_param.py
 mypkg/frist_sub.py
 mypkg/turtle_control.py
 mypkg/twist_pub.py
