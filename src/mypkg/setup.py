@@ -28,6 +28,7 @@ setup(
             "twist_subscription = mypkg.twist_sub:main",
             "turtle_avoidance= mypkg.turtle_control:main",
             "frist_param= mypkg.frist_param:main",
+            "turtle_service_server = mypkg.turtle_service_server:main",
 
 
         ],

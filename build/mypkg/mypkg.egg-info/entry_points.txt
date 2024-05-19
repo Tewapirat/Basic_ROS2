@@ -3,6 +3,7 @@ frist_param = mypkg.frist_param:main
 frist_publisher = mypkg.frist_node:main
 frist_subscription = mypkg.frist_sub:main
 turtle_avoidance = mypkg.turtle_control:main
+turtle_service_server = mypkg.turtle_service_server:main
 twist_publisher = mypkg.twist_pub:main
 twist_subscription = mypkg.twist_sub:main
 

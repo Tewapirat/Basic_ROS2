@@ -14,6 +14,7 @@ mypkg/frist_node.py
 mypkg/frist_param.py
 mypkg/frist_sub.py
 mypkg/turtle_control.py
+mypkg/turtle_service_server.py
 mypkg/twist_pub.py
 mypkg/twist_sub.py
 resource/mypkg

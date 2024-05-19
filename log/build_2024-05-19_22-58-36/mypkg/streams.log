@@ -1,0 +1,30 @@
+[0.293s] Invoking command in '/home/vm22/myros2_ws/src/mypkg': PYTHONPATH=/home/vm22/myros2_ws/build/mypkg/prefix_override:/home/vm22/myros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/vm22/myros2_ws/build/mypkg/build install --record /home/vm22/myros2_ws/build/mypkg/install.log --single-version-externally-managed install_data
+[0.407s] running egg_info
+[0.407s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.407s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.407s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.407s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.407s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.408s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.408s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.409s] running build
+[0.409s] running build_py
+[0.409s] copying mypkg/turtle_service_server.py -> /home/vm22/myros2_ws/build/mypkg/build/lib/mypkg
+[0.409s] running install
+[0.409s] running install_lib
+[0.409s] copying /home/vm22/myros2_ws/build/mypkg/build/lib/mypkg/turtle_service_server.py -> /home/vm22/myros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.410s] byte-compiling /home/vm22/myros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg/turtle_service_server.py to turtle_service_server.cpython-310.pyc
+[0.410s] running install_data
+[0.410s] running install_egg_info
+[0.411s] removing '/home/vm22/myros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.411s] Copying ../../build/mypkg/mypkg.egg-info to /home/vm22/myros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.412s] running install_scripts
+[0.423s] Installing frist_param script to /home/vm22/myros2_ws/install/mypkg/lib/mypkg
+[0.423s] Installing frist_publisher script to /home/vm22/myros2_ws/install/mypkg/lib/mypkg
+[0.423s] Installing frist_subscription script to /home/vm22/myros2_ws/install/mypkg/lib/mypkg
+[0.423s] Installing turtle_avoidance script to /home/vm22/myros2_ws/install/mypkg/lib/mypkg
+[0.423s] Installing turtle_service script to /home/vm22/myros2_ws/install/mypkg/lib/mypkg
+[0.423s] Installing twist_publisher script to /home/vm22/myros2_ws/install/mypkg/lib/mypkg
+[0.423s] Installing twist_subscription script to /home/vm22/myros2_ws/install/mypkg/lib/mypkg
+[0.423s] writing list of installed files to '/home/vm22/myros2_ws/build/mypkg/install.log'
+[0.436s] Invoked command in '/home/vm22/myros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/vm22/myros2_ws/build/mypkg/prefix_override:/home/vm22/myros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/vm22/myros2_ws/build/mypkg/build install --record /home/vm22/myros2_ws/build/mypkg/install.log --single-version-externally-managed install_data
