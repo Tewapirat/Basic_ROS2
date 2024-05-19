@@ -23,6 +23,8 @@ setup(
             "frist_publisher = mypkg.frist_node:main",
             "twist_publisher = mypkg.twist_pub:main",
             "frist_subscription = mypkg.frist_sub:main",
+            "twist_subscription = mypkg.twist_sub:main",
+            "turtle_avoidance= mypkg.turtle_control:main",
 
 
         ],
