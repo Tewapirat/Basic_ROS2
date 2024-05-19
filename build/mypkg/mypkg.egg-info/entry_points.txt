@@ -1,4 +1,5 @@
 [console_scripts]
 frist_publisher = mypkg.frist_node:main
+frist_subscription = mypkg.frist_sub:main
 twist_publisher = mypkg.twist_pub:main
 
