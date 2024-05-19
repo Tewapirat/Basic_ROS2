@@ -21,6 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             "frist_publisher = mypkg.frist_node:main",
+            "twist_publisher = mypkg.twist_pub:main",
+
         ],
     },
 )

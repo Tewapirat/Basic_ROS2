@@ -10,6 +10,7 @@ setup.py
 ../../build/mypkg/mypkg.egg-info/zip-safe
 mypkg/__init__.py
 mypkg/frist_node.py
+mypkg/twist_pub.py
 resource/mypkg
 test/test_copyright.py
 test/test_flake8.py
